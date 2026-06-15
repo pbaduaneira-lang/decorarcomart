@@ -143,7 +143,7 @@ function App() {
         {activeView === 'store' ? (
           <>
             <section className="hero">
-              <h2 className="animate-fade-in">Transformando ambientes com arte e elegância. Cortinas sob medida e itens exclusivos.</h2>
+              <h2 className="animate-fade-in">Transformando ambientes com arte e elegância. Cortinas sob medidas e itens exclusivos...</h2>
               <p className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
                 Vista sua casa com o melhor em decoração, persianas e papéis de parede.
               </p>
