@@ -1,0 +1,34 @@
+.custom-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.logo-main-text {
+  font-family: 'Tangerine', cursive;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff; /* Letras brancas conforme imagem */
+  line-height: 0.8;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.logo-sub-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #4A3B2C; /* Marrom da imagem */
+  letter-spacing: 2px;
+  margin-top: 0;
+  text-transform: lowercase;
+}
+
+/* Ajustes caso o header tenha fundo muito claro */
+.app-header .logo-main-text {
+  color: #C8A97E; /* Ajuste para o fundo branco quente do site */
+  text-shadow: none;
+}
+
